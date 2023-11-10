@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="ISO-8859-1">
+      <title>Insert title here</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+             <style>
+
+              footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            width:100%;
+        }
+
+        /* Adjust styles for responsiveness */
+        @media (max-width: 768px) {
+            footer {
+                font-size: 14px;
+            }
+        }
+        h2 {
+			margin:10px;
+			padding:8px;
+		}
+    </style>
+
+	
+   </head>
+  <body>
+	  <nav class="navbar navbar-light bg-warning">
+  <a class="navbar-brand text-light" href="#">
+   
+   <h1>Book Register Application</h1> 
+  </a>
+</nav>
+	  
+   <div class="container-fluid card" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 500px;">
+	  <!-- Image and text -->
+
+      <h2 class="bg-warning text-white text-center m-100 border border-warning ">Book Registration</h2>
+      <form action="register" method="post">
+         <table class="table table-hover">
+            <tr class="border">
+               <td>Book Name</td>
+               <td><input type="text" name="bookName"></td>
+            </tr>  
+           
+            <tr class="border">
+               <td>Book Edition</td>
+               <td><input type="text" name="bookEdition"></td>
+            </tr>
+            <tr class="border">
+               <td>Book Price</td>
+              
+               <td><input type="number" name="bookPrice"></td>
+            </tr>
+            <tr >
+               <td><input type="submit" class="btn btn-success" value=" Register"></td>
+               <td><input type="reset" class="btn btn-danger" value="Cancel" style="position: absolute; right:10%;"></td>
+            </tr>
+         </table>
+              <center>
+     </center>
+      </form>
+     </div>
+     <center>
+     <a class='btn btn-primary'  style='position:absolute; top:74%; left:50%;' type='button'href='bookList'>Book List</a>
+ </center>
+ 
+ <footer style="position: absolute; bottom: 0%; ">
+	   <p>&copy; 2023 Book Restration Application</p>
+	  <!-- <div style="display:flex; gap:10px; justify-content: center;">
+		   <a href="https://www.instagram.com/m.r__vishu__/">
+	 <img src="images/insta.png" style="width: 35px; height: 35px;" alt="No images"></a>
+	 <a href="https://github.com/VishwaMTGowda">
+	 <img src="images/github.jpg" style="width: 35px; height: 35px;" alt="No images"></a>
+	 <a href="https://www.linkedin.com/">
+	 <img src="images/linkdin.png" style="width: 35px; height: 35px;" alt="No images"></a>
+		 <a href="https://www.facebook.com/">
+		<img src="images/facebook.jpg" style="width: 35px; height: 35px;" alt="No images"></a>
+ </div>
+ -->
+ </footer>
+
+   </body>
+
+</html>
